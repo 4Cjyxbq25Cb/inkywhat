@@ -3,3 +3,4 @@ A cronjob can be set up so that a new image is displayed every x (e.g., 5) minut
 In the terminal type crontab -e 
 and add 
 */5 * * * * /usr/bin/python path/to/script/display.py
+Note: Please inspect line 11 and line 12 in display.py
