@@ -8,7 +8,7 @@ print("""Inky wHAT: Dither image
 
 Converts and displays dithered images on Inky wHAT.
 """)
-
+#add path to folder that contains the images / in case of running the script in cron the path has to be fully defined: e.g. "/home/pi/Pimoroni/inky/images/"
 folder = "./images/"
 
 file_list = os.listdir(folder)
